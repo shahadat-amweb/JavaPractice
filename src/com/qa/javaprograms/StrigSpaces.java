@@ -1,6 +1,7 @@
 package com.qa.javaprograms;
 
 public class StrigSpaces {
+	//test
 	public static void main(String[] args) {
 		String s = " I m In dian";
 		int c = 0;
