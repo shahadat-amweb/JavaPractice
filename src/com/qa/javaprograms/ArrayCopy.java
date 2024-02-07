@@ -3,7 +3,8 @@ package com.qa.javaprograms;
 import java.util.Arrays;
 
 public class ArrayCopy {
-	/*
+	/*Merging two arrys
+	 * 
 	 * arraycopy(Object src, int srcPos,Object dest, int destPos, int length) Here,
 	 * src - source array you want to copy srcPos - starting position (index) in the
 	 * source array dest - destination array where elements will be copied from the
@@ -25,7 +26,7 @@ public class ArrayCopy {
 		System.out.println(Arrays.toString(C));
 
 		for (int e:C) {
-			System.out.print(e + ",");
+			System.out.println(e + ",");
 		}
 
 	}

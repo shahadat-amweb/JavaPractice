@@ -54,7 +54,7 @@ public class HashMapCompare {
 		System.out.println(combinedKeys);
 		System.out.println(combinedKeys);
 
-		// compare maps by vlaues
+		// compare maps by values
 		HashMap<Integer, String> map5 = new HashMap<Integer, String>();
 		map5.put(1, "A");
 		map5.put(2, "B");

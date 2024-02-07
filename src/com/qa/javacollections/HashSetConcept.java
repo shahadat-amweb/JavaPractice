@@ -15,6 +15,8 @@ public class HashSetConcept {
 		hs.add(null);
 		System.out.println(hs.size());
 		System.out.println(hs);
+		hs.stream().forEach(e->System.out.println(e));
+		
 
 	}
 

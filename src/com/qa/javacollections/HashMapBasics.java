@@ -12,8 +12,7 @@ public class HashMapBasics {
 		capitalMap.put("Angola", "Luanda");
 		capitalMap.put("Argentina", "Buenos");
 		capitalMap.put("Armenia", "Yerevan");
-
-		// System.out.println(capitalMap.containsKey("India"));
+// 		System.out.println(capitalMap.containsKey("India"));
 //		System.out.println(capitalMap.keySet());
 //		System.out.println(capitalMap.values());
 		capitalMap.put("abc", null);
@@ -38,13 +37,9 @@ public class HashMapBasics {
 			Entry<String, String> entry = itt.next();
 			System.out.println(entry.getKey() + ":" + entry.getValue());
 		}
-		
+
 		System.out.println("----------------------");
 		// Iterate hash map using lambda
-		capitalMap.forEach((k,v)-> System.out.println(k));
-		
-		
-
+		capitalMap.forEach((k, v) -> System.out.println(k + " --> " + v));
 	}
-
 }

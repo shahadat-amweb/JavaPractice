@@ -25,7 +25,7 @@ public class StringToDateExample1 {
 		Date date4=formatter4.parse(sDate4);
 		Date date5=formatter5.parse(sDate5);
 		Date date6=formatter6.parse(sDate6);
-		System.out.println("String to Date converter by technolamror");
+		System.out.println("String to Date converter");
 		System.out.println(sDate1+"\t"+date1);
 		System.out.println(sDate2+"\t"+date2);
 		System.out.println(sDate3+"\t"+date3);
